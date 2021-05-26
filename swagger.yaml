@@ -1,0 +1,91 @@
+swagger: '2.0'
+info:
+  description: Api Documentation
+  version: '1.0'
+  title: Api Documentation
+  termsOfService: 'urn:tos'
+  contact: {}
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0'
+host: 'localhost:8080'
+basePath: /
+tags:
+  - name: system-controller
+    description: System Controller
+paths:
+  /system:
+    get:
+      tags:
+        - system-controller
+      summary: getSystem
+      operationId: getSystemUsingGET
+      produces:
+        - '*/*'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: string
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+    post:
+      tags:
+        - system-controller
+      summary: DESCRIPTION TEST
+      operationId: updateSystemUsingPOST
+      consumes:
+        - application/json
+      produces:
+        - '*/*'
+      parameters:
+        - in: body
+          name: userDto
+          description: userDto
+          required: true
+          schema:
+            $ref: '#/definitions/Credentials'
+      responses:
+        '200':
+          description: OK
+          examples:
+            application/json: >-
+              {"createdAt": "2021-04-04T04:35:00.524082200Z","status":
+              "success","result": "email"}
+          schema:
+            $ref: '#/definitions/ResponseWithMetadata'
+        '201':
+          description: Created
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Demand does not exist
+        '500':
+          description: Internal server error
+definitions:
+  Credentials:
+    type: object
+    properties:
+      password:
+        type: string
+        example: givemeoffer$123
+      user:
+        type: string
+        example: qa@happymoney.com
+    title: Credentials
+  ResponseWithMetadata:
+    type: object
+    properties:
+      createdAt:
+        type: string
+      result:
+        type: string
+      status:
+        type: string
+    title: ResponseWithMetadata
