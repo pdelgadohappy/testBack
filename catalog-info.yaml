@@ -6,6 +6,10 @@ metadata:
   tags:
     - test
     - epdev
+  links:
+    - url: https://github.com/pdelgadohappy/testBack
+      title: Github Repo
+      icon: github
   annotations:
     # The annotation is deprecated, we use placeholders (see below) instead, remove it later.
     backstage.io/techdocs-ref: url:https://github.com/pdelgadohappy/testBack
