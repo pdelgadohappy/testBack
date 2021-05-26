@@ -4,8 +4,8 @@ metadata:
   name: webcrawler
   description: an example
   tags:
-    - spotify
-    - rest
+    - test
+    - ep_dev
   annotations:
     # The annotation is deprecated, we use placeholders (see below) instead, remove it later.
     backstage.io/definition-at-location: 'url:https://github.com/pdelgadohappy/testBack/blob/main/swagger.yaml'
