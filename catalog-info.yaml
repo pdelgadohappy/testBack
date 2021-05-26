@@ -8,7 +8,7 @@ metadata:
     - epdev
   annotations:
     # The annotation is deprecated, we use placeholders (see below) instead, remove it later.
-    backstage.io/techdocs-ref: url:https://github.com/pdelgadohappy/testBack/blob/main/README.md
+    backstage.io/techdocs-ref: url:https://github.com/backstage/backstage/tree/master
     backstage.io/definition-at-location: 'url:https://backstage.io/docs/features/software-catalog/software-catalog-overview'
 spec:
   type: openapi
