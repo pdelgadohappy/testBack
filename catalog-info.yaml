@@ -8,7 +8,7 @@ metadata:
     - epdev
   annotations:
     # The annotation is deprecated, we use placeholders (see below) instead, remove it later.
-    backstage.io/definition-at-location: 'url:https://github.com/pdelgadohappy/testBack/blob/main/swagger.yaml'
+    backstage.io/definition-at-location: 'url:https://happymoneyinc.atlassian.net/wiki/spaces/DT/pages/8014594093/AWS+Developer+Sandbox+Walkthrough#AWS-Sandbox-Resets'
 spec:
   type: openapi
   lifecycle: experimental
