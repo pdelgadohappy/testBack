@@ -1,22 +1,17 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: webcrawler
   description: an example
-  links:
-    - title: Website
-      url: http://backstage.io
-    - title: Documentation
-      url: https://backstage.io/docs
-    - title: Storybook
-      url: https://backstage.io/storybook
-    - title: Discord Chat
-      url: https://discord.com/invite/EBHEGzX
+  tags:
+    - spotify
+    - rest
   annotations:
-    github.com/project-slug: backstage/backstage
-    backstage.io/techdocs-ref: url:https://github.com/pdelgadohappy/testBack
-    lighthouse.com/website-url: https://backstage.io
+    # The annotation is deprecated, we use placeholders (see below) instead, remove it later.
+    backstage.io/definition-at-location: 'url:https://raw.githubusercontent.com/APIs-guru/openapi-directory/master/APIs/spotify.com/v1/swagger.yaml'
 spec:
-  type: library
-  owner: CNCF
+  type: openapi
   lifecycle: experimental
+  owner: team-a
+  definition:
+    $text: https://github.com/APIs-guru/openapi-directory/blob/dab6854d4d599aafb0eb36e6c7ae1fe0c37509b7/APIs/spotify.com/2021.4.2/openapi.yaml
