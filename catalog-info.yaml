@@ -8,6 +8,7 @@ metadata:
     - epdev
   annotations:
     # The annotation is deprecated, we use placeholders (see below) instead, remove it later.
+    backstage.io/techdocs-ref: 'url:https://happymoneyinc.atlassian.net/wiki/spaces/DT/pages/8014594093/AWS+Developer+Sandbox+Walkthrough#AWS-Sandbox-Resets'
     backstage.io/definition-at-location: 'url:https://happymoneyinc.atlassian.net/wiki/spaces/DT/pages/8014594093/AWS+Developer+Sandbox+Walkthrough#AWS-Sandbox-Resets'
 spec:
   type: openapi
