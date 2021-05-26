@@ -9,7 +9,8 @@ metadata:
   annotations:
     # The annotation is deprecated, we use placeholders (see below) instead, remove it later.
     backstage.io/techdocs-ref: url:https://github.com/pdelgadohappy/testBack
-    backstage.io/definition-at-location: 'url:https://backstage.io/docs/features/software-catalog/software-catalog-overview'
+    github.com/project-slug: pdelgadohappy/testBack
+#    backstage.io/definition-at-location: 'url:https://backstage.io/docs/features/software-catalog/software-catalog-overview'
 spec:
   type: openapi
   lifecycle: experimental
