@@ -5,7 +5,7 @@ metadata:
   description: an example
   tags:
     - test
-    - epdev
+    - java
   links:
     - url: https://github.com/pdelgadohappy/testBack
       title: Github Repo
