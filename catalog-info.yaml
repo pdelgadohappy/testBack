@@ -17,7 +17,7 @@ metadata:
     github.com/project-slug: pdelgadohappy/testBack
 #    backstage.io/definition-at-location: 'url:https://backstage.io/docs/features/software-catalog/software-catalog-overview'
 spec:
-  type: openapi
+  type: service
   lifecycle: experimental
   owner: team-a
   definition:
