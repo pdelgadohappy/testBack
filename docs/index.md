@@ -1,6 +1,6 @@
 ## Documentation
 
-Documentation for a thing
+This is documentation for the pdelgado/testBack software that does amazing things.
 
 ## Getting started
 
