@@ -2,6 +2,8 @@
 
 This is documentation for the pdelgado/testBack software that does amazing things.
 
+We decided to make this a `kind:Component` and `spec:type:service` for now (instead of `kind:API` and `spec:type:openapi`).
+
 ## Getting started
 
 Start write your documentation by adding more markdown (.md) files to this folder (/docs) or replace the content in this file.
